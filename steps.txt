@@ -1,0 +1,3 @@
+- Welcome screen 
+- Redux
+- react-native-navigation
