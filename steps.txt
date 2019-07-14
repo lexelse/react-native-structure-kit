@@ -1,3 +1,4 @@
 - Welcome screen 
+- jest & enzyme & sinon
 - Redux
 - react-native-navigation

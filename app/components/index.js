@@ -1,1 +1,2 @@
-export {View} from "./View/View";
+export {ViewLX} from "./ViewLX/ViewLX";
+export { TextLX } from './TextLX/TextLX';
