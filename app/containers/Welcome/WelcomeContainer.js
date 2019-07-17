@@ -1,17 +1,13 @@
-import React, { Component } from 'react'
-import {Welcome} from "./Welcome";
+import React, { Component } from "react";
+import Welcome from "./Welcome";
 
+// eslint-disable-next-line react/prefer-stateless-function
 class WelcomeContainer extends Component {
-
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <Welcome />
-        )
+        );
     }
 }
 
-export {WelcomeContainer};
+export default WelcomeContainer;

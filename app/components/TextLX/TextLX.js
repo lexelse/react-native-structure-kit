@@ -1,10 +1,13 @@
-import React from 'react'
-import { Text } from 'react-native';
+// @flow
+import React from "react";
+import { Text } from "react-native";
 
 const TextLX = (props) => {
-    return (
-        <Text>{props.children}</Text>
-    )
-}
+    const { children } = props;
 
-export {TextLX};
+    return (
+        <Text>{children}</Text>
+    );
+};
+
+export default TextLX;

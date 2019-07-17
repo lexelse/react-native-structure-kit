@@ -1,4 +1,6 @@
-- Welcome screen 
+- flow.js
+- eslint
+- Welcome screen
 - jest & enzyme & sinon
 - Redux
 - react-native-navigation

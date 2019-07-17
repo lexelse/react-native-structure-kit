@@ -1,13 +1,10 @@
-import React from 'react'
-import { ViewLX, TextLX } from '../../components';
+import React from "react";
+import { ViewLX, TextLX } from "../../components";
 
-const Welcome = () => {
+const Welcome = () => (
+    <ViewLX>
+        <TextLX>HELLO!!</TextLX>
+    </ViewLX>
+);
 
-    return (
-        <ViewLX>
-            <TextLX>HELLO!!</TextLX>
-        </ViewLX>
-    )
-}
-
-export {Welcome};
+export default Welcome;

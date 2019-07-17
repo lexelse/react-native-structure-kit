@@ -1,12 +1,13 @@
 import React from "react";
-import { View } from 'react-native';
+import { View } from "react-native";
 
 const ViewLX = (props) => {
+    const { children } = props;
     return (
         <View>
-            {props.children}
+            {children}
         </View>
     );
-}
+};
 
-export {ViewLX};
+export default ViewLX;

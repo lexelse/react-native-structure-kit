@@ -1,2 +1,8 @@
-export {ViewLX} from "./ViewLX/ViewLX";
-export { TextLX } from './TextLX/TextLX';
+
+import ViewLX from "./ViewLX/ViewLX";
+import TextLX from "./TextLX/TextLX";
+
+export {
+    ViewLX,
+    TextLX
+};
