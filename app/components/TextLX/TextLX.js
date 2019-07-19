@@ -1,8 +1,13 @@
 // @flow
-import React from "react";
+
+import * as React from "react";
 import { Text } from "react-native";
 
-const TextLX = (props) => {
+type Props = {
+    children?: React.Node
+}
+
+const TextLX = (props: Props) => {
     const { children } = props;
 
     return (

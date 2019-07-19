@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextLX Rendering should match to snapshot 1`] = `ShallowWrapper {}`;
+exports[`TextLX Rendering should match to snapshot 1`] = `"<Text />"`;
+
+exports[`TextLX Rendering should match to snapshot with props.children 1`] = `
+"<Text>
+  HELLO WORLD
+</Text>"
+`;

@@ -34,6 +34,7 @@ node_modules/react-native/flow/
 
 [options]
 emoji=true
+all=true
 
 esproposal.optional_chaining=enable
 esproposal.nullish_coalescing=enable

@@ -12,7 +12,8 @@ module.exports = {
     "indent": ["error", 4],
     "react/jsx-indent": ["error", 4],
     "quotes": ["error", "double"],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": false, "peerDependencies": false}]
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": false, "peerDependencies": false}],
+    "react/require-default-props": [0,  { forbidDefaultForRequired: 0 }]
   },
   "globals": {
     "fetch": false

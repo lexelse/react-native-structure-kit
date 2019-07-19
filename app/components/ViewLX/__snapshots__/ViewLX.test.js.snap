@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewLX rendering should match the snapshot 1`] = `"<View />"`;
+
+exports[`ViewLX rendering with props should render 'children' prop 1`] = `
+"<View>
+  <TextLX>
+    HELLO WORLD
+  </TextLX>
+</View>"
+`;

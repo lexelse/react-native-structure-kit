@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react";
 import { ViewLX, TextLX } from "../../components";
 

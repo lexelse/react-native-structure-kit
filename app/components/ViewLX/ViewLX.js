@@ -1,7 +1,13 @@
-import React from "react";
+// @flow
+
+import * as React from "react";
 import { View } from "react-native";
 
-const ViewLX = (props) => {
+type Props = {
+    children?: React.Node
+}
+
+const ViewLX = (props: Props) => {
     const { children } = props;
     return (
         <View>
