@@ -16,23 +16,5 @@ describe("ViewLX", () => {
                 expect(component).toMatchSnapshot();
             });
         });
-
-
-        it.only("the data is peanut butter", () => {
-            const mockCallBack = jest.fn();
-            console.log(mockCallBack());
-
-            mockCallBack.mockReturnValueOnce("first")
-                .mockReturnValueOnce("second")
-                .mockReturnValue(true);
-
-            console.log(mockCallBack(), mockCallBack(), mockCallBack(), mockCallBack());
-        });
     });
 });
-
-function forEach(items, callback) {
-    for (let index = 0; index < items.length; index++) {
-        callback(items[index]);
-    }
-}
